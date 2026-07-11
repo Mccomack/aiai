@@ -1,0 +1,16 @@
+.venv/
+.DS_Store
+
+local_cache/
+
+raw/
+train/
+test/
+
+!raw/README.md
+!train/README.md
+!test/README.md
+
+# 파일 크기 제한 때문에 제거, https://huggingface.co/mccomack/ast-korean-music-genre-classifier 참고
+genre_model/
+final_genre_model/
