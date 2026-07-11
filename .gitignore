@@ -3,9 +3,9 @@
 
 local_cache/
 
-raw/
-train/
-test/
+raw/*
+train/*
+test/*
 
 !raw/README.md
 !train/README.md
