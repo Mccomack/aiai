@@ -32,7 +32,7 @@ uv run python train_mode.py
 ### 예측
 
 이미 학습된 모델은 [여기](https://huggingface.co/mccomack/ast-korean-music-genre-classifier)에 있음. 용량 관계상 hf에 올림. 
-
+다운받은 것들을 /final_genre_model 폴더 만들어서 그 안에 내용 복붙. 
 
 /test(이 폴더 아니여도 되지만 권장)에 위와 똑같이 포멧해서 음악 파일 올린 후, 아래 명령 실행. 
 ```bash
