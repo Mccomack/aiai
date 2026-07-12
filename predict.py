@@ -55,7 +55,7 @@ def predict_genre(file_path, model_dir="./final_genre_model"):
         print(f"[{label}]: {score * 100:.2f}%")
 
     top_label = data_label[sorted_indices[0]]
-    print(f"predicted gener: {top_label}")
+    print(f"predicted genre: {top_label}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="음악 장르 추측 모델")
